@@ -87,6 +87,8 @@ letters = letters[::-1]
 print(letters)
 
 print(numbers[::-1])
+
+print(book.split())
 #  множества
 #  множества
 # функции
