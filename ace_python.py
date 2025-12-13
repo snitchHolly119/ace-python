@@ -25,10 +25,70 @@ print(book.count("а"))  # Подсчет количества буков "а".
 print(book.upper())
 print(book.lower())
 
+# вязание текста
+print(book[0:7])
+#
+
 # математические вычисления
+# сложение
+print(5 + 5)
+# Вычитание
+print(5 - 3)
+# Умножение
+print(5 * 4)
+# Делениуе
+print(5 / 2)
+# Деление нацело
+print(5 // 2)
+# Остаток от деления
+print(5 % 2)
+# Возведение в степень
+print(5**2)
+print(2**7)
+# выделении квадратного корня
+print(64**0.5)
+# Модуль числа
+print(abs(-11))
+# Порядок действий
+print((5**2 + 2) / 9**0.5)
+print((abs(-10) + abs(14)) / 1.5)
+
 # условия
 # циклы
 # работа с коллекциями данных
+# списки
+numbers = [1, 2, 3, 4, 5, 6, 7]
+letters = ["a", "b", "c", "d", "e"]
+results = []
+# Добавление новой информации в конец списка
+numbers.append(8)
+print(numbers)
+
+letters.append("f")
+print(letters)
+# удаление из списка
+del numbers[0]
+del numbers[1]
+del numbers[-1]
+
+letters.remove("b")
+# обновления существующей информации в списке
+letters[0] = "A"
+letters[2] = letters[2].upper()
+
+#
+numbers = sorted(numbers)
+print(numbers)
+#
+letters = sorted(letters)
+print(letters)
+
+letters = letters[::-1]
+print(letters)
+
+print(numbers[::-1])
+#  множества
+#  множества
 # функции
 # работа с файлами
 # библиотеки
