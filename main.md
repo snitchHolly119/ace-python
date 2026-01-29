@@ -102,11 +102,21 @@ t = str(10.24)	# "10.24"
 
 
 # работа с текстом
+
+
+```python
 book = "властелин колец и братство кольца"
+```
+
+```python
 print(len(book))  # подсчет общего количества букв
 print(book.count("а"))  # Подсчет количества буков "а".
+```
+
+```python
 print(book.upper())
 print(book.lower())
+```
 
 # вязание текста
 print(book[0:7])
@@ -162,39 +172,53 @@ print((abs(-10) + abs(14)) / 1.5
 # условия
 # циклы
 # работа с коллекциями данных
+
+
+
 # списки
 numbers = [1, 2, 3, 4, 5, 6, 7]
 letters = ["a", "b", "c", "d", "e"]
+
 results = []
-# Добавление новой информации в конец списка
+### Добавление новой информации в конец списка
+```python
 numbers.append(8)
 print(numbers)
 
 letters.append("f")
 print(letters)
-# удаление из списка
+```
+
+### удаление из списка
+```python
 del numbers[0]
 del numbers[1]
 del numbers[-1]
 
 letters.remove("b")
-# обновления существующей информации в списке
+```
+### обновления существующей информации в списке
+```python
 letters[0] = "A"
 letters[2] = letters[2].upper()
-
+```
 #
+```python
 numbers = sorted(numbers)
 print(numbers)
 #
 letters = sorted(letters)
 print(letters)
-
+```
+```python
 letters = letters[::-1]
 print(letters)
 
 print(numbers[::-1])
-
+```
+```python
 print(book.split())
+```
 #  множества
 #  множества
 # функции
